@@ -12,7 +12,7 @@ mkdir -p /var/www/html
 
 # Download files from GCP bucket 
 
-gcloud storage cp gs://wave-webserver-storage-02/static/index.html /var/www/html/index.html
+gcloud storage cp gs://wave-webserver-storage-02/inject/inject-html.html /tmp/inject-html.html
 gcloud storage cp gs://wave-webserver-storage-02/static/styles.css /var/www/html/styles.css
 gcloud storage cp gs://wave-webserver-storage-02/static/script.js /var/www/html/script.js
 
